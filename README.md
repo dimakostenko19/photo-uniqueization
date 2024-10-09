@@ -19,11 +19,11 @@ This Python script processes images and makes them unique using the Pillow libra
     cd photo_unique
     ```
 
-2. **You can install the required dependencies using**
+2. **You can install the required dependencies using**:
     ```bash
     pip install -r requirements.txt
 
-3. **Path configuration**
+3. **Path configuration**:
     Replace `base_path` with the path to the base image and `overlay_path` with the path to the image that will be overlaid.
 
 4. **Run script**:
