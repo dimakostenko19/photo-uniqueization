@@ -1,5 +1,5 @@
 from PIL import Image, ImageEnhance
-ddd
+
 def add_filter(img_path):
     with Image.open(img_path) as img:
         # crop the image
@@ -41,5 +41,6 @@ def overlay(base_path, overlay_path):
         new_over.putalpha(alpha)
         base_img.paste(new_over, (1, 300), new_over)
         return base_img
+img = add_filter(base_path)
 img = overlay(base_path, overlay_path)
 img.save("output.png")
