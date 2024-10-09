@@ -41,6 +41,9 @@ def overlay(base_path, overlay_path):
         new_over.putalpha(alpha)
         base_img.paste(new_over, (1, 300), new_over)
         return base_img
+<<<<<<< HEAD
 img = add_filter(base_path)
+=======
+>>>>>>> b387f44e9592dd88bf2b9ca0f54b5eb9dfcce65e
 img = overlay(base_path, overlay_path)
 img.save("output.png")
